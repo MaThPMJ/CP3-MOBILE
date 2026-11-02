@@ -261,4 +261,39 @@ Como o trabalho não permite pacotes como o `intl`, fiz duas funções simples:
 
 ## Prints das telas
 
-[INSERIR_PRINTS_DAS_TELAS]
+Prints tirados rodando o app no Chrome (`flutter run -d chrome`).
+
+### Tela inicial (estado vazio)
+Total zerado e mensagem avisando que ainda não tem gastos.
+
+![Tela inicial](prints/01-tela-inicial.png)
+
+### Novo gasto
+Formulário aberto pelo botão **+**, com o título "Novo gasto" na AppBar.
+
+![Novo gasto](prints/02-novo-gasto.png)
+
+### Formulário preenchido
+Descrição, valor (com vírgula) e categoria escolhida no Dropdown.
+
+![Formulário preenchido](prints/03-formulario-preenchido.png)
+
+### Lista com gasto cadastrado
+Depois de salvar, o gasto aparece na lista e o total é atualizado.
+
+![Lista com gasto](prints/04-lista-com-gasto.png)
+
+### Filtro por categoria
+Com o filtro em **Transporte**, a lista e o total mostram só essa categoria.
+
+![Filtro Transporte](prints/05-filtro-transporte.png)
+
+### Filtro sem resultado
+Categoria sem gastos: total R$ 0,00 e mensagem de estado vazio.
+
+![Filtro vazio](prints/06-filtro-vazio.png)
+
+### Confirmação de exclusão
+AlertDialog perguntando se o usuário quer mesmo excluir, com a opção de cancelar.
+
+![Confirmar exclusão](prints/07-confirmar-exclusao.png)
