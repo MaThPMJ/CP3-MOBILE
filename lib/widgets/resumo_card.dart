@@ -45,10 +45,7 @@ class ResumoCard extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 4),
-            Text(
-              textoQuantidade,
-              style: TextStyle(color: cores.onPrimary),
-            ),
+            Text(textoQuantidade, style: TextStyle(color: cores.onPrimary)),
           ],
         ),
       ),
